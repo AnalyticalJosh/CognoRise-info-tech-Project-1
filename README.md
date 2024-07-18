@@ -35,13 +35,18 @@ Based on the Unemployment in India dataset from Kaggle, This dataset includes th
  1. Excel
  2. R
 
-## Skill Used
-1. Organising the dataset
-2. Cleaining the dataset
+## Skill performed
+1. Data organising (Excel)
+2. Data cleaning (Excel)
+3. Data transformation (Excel)
+4. Data manipulation (R)
+5. Data visualization (R)
 
 ## R package used
 1. DPLYR: Data plying with R
 2. GGPLOT2: Grammer of graphics plot 2
+
+
 
 
 
