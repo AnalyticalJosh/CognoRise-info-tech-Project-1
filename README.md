@@ -31,6 +31,9 @@ Based on the Unemployment in India dataset from Kaggle, This dataset includes th
  10. What is the estimated labor participation rate in each state?
  11. Is there any relationship between labor participation and unemployment?
 
+##### DATA ANALYTICAL TOOLS USED
+# 1. Excel
+# 2. R
 
 
 
