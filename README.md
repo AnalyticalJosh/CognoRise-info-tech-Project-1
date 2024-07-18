@@ -8,7 +8,7 @@
 ## Introduction
 Unemployment in India remains a significant challenge influenced by high or rapid population growth, economic disperity, economic flunctuation e.t.c. The employment rate is notably higher in rural regions and among youths. This is an analysis aims to provide insights into these disperities, offering a comprehensive view of both the highs and lows in India's employment landscape to get insight and analysis on the highs and lows.
 
-# Content
+## Content
 Based on the Unemployment in India dataset from Kaggle, This dataset includes the following variables or fields;
 1. Region: Specifies the location or region under study
 2. Date: Represents the time period in which unemployment analysis was recorded
@@ -18,7 +18,7 @@ Based on the Unemployment in India dataset from Kaggle, This dataset includes th
 6. Estmated labour participation rate (%): This shows the percentage of people who are actively working or seeking jobs
 7. Area: Classification of geographical region analyzed
 
-# Problem statement
+## Problem statement
  1.  How has the unemployment rate changed over time (by date)?
  2.  Are there any seasonal patterns in unemployment? (Analyze based on the frequency column.)
  3.  Which years or months had the highest and lowest unemployment rates?
@@ -31,7 +31,7 @@ Based on the Unemployment in India dataset from Kaggle, This dataset includes th
  10. What is the estimated labor participation rate in each state?
  11. Is there any relationship between labor participation and unemployment?
 
-# Data analytical tools used
+## Data analytical tools used
  1. Excel
  2. R
 
