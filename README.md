@@ -19,17 +19,17 @@ Based on the Unemployment in India dataset from Kaggle, This dataset includes th
 7. Area: Classification of geographical region analyzed
 
 #### PROBLEM STATEMENT
- 1. How has the unemployment rate changed over time (by date)?
- 2. Are there any seasonal patterns in unemployment? (Analyze based on the frequency column.)
- 3. Which years or months had the highest and lowest unemployment rates?
- 4. Which Indian states have the highest and lowest unemployment rates?
- 5. Can you identify any regional disparities in employment and unemployment?
- 6. Is there a correlation between the estimated labor participation rate and the unemployment rate across different states?
- 7. What is the estimated employed percentage in each state?
- 8. Are there any states where the employed percentage significantly differs from the national average?
- 9. How does the employed percentage correlate with the unemployment rate?
- 10.What is the estimated labor participation rate in each state?
- 11.Is there any relationship between labor participation and unemployment?
+ 1.  How has the unemployment rate changed over time (by date)?
+ 2.  Are there any seasonal patterns in unemployment? (Analyze based on the frequency column.)
+ 3.  Which years or months had the highest and lowest unemployment rates?
+ 4.  Which Indian states have the highest and lowest unemployment rates?
+ 5.  Can you identify any regional disparities in employment and unemployment?
+ 6.  Is there a correlation between the estimated labor participation rate and the unemployment rate across different states?
+ 7.  What is the estimated employed percentage in each state?
+ 8.  Are there any states where the employed percentage significantly differs from the national average?
+ 9.  How does the employed percentage correlate with the unemployment rate?
+ 10. What is the estimated labor participation rate in each state?
+ 11. Is there any relationship between labor participation and unemployment?
 
 
 
