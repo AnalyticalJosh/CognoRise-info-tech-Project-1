@@ -41,7 +41,7 @@ Changes_Overtime_2019$year <- as.integer(substr(Changes_Overtime_2019$Date,7,10)
 Changes_Overtime_2019 <- Changes_Overtime_2019[order(Changes_Overtime_2019$month),]
 View(Changes_Overtime_2019)
 
-# To visualize our findings we use line chart
+# To visualize our findings, we use line chart
 ggplot(data = Changes_Overtime_2019, mapping = aes(x = month, y = Average)) + geom_line() +
   labs(title = "Unemployment rate in 2019",
        x = "Months",
@@ -76,7 +76,7 @@ Changes_Overtime_2020$year <- as.integer(substr(Changes_Overtime_2020$Date,7,10)
 Changes_Overtime_2020 <- Changes_Overtime_2020[order(Changes_Overtime_2020$month),]
 View(Changes_Overtime_2020)
 
-# Visualization
+# Visualization using ggplot from ggplot2 package
 ggplot(data = Changes_Overtime_2020, mapping = aes(x = month, y = Changes_Overtime_2020$Average)) +
   geom_line(color = "navy", size = 1.2) + labs(title = "Unemployment rate in 2020",
                                                x = "Months",
@@ -89,7 +89,7 @@ Seasonal_pattern <- Unemployment_Data %>% group_by(Month = substr(Date,4,5)) %>%
   summarise(Average = mean(`Estimated Unemployment Rate (%)`))
 View(Seasonal_pattern)
 
-# Visuals
+# Visualizing using a bar chart
 ggplot(data = Seasonal_pattern, mapping = aes(x = Month, y = Average, fill = Month)) +
   geom_bar(stat = "identity") +
   labs(title = "Average Unemployment Rate by Month",
@@ -103,6 +103,8 @@ ggplot(data = Seasonal_pattern, mapping = aes(x = Month, y = Average, fill = Mon
     axis.text.x = element_text(angle = 45, hjust = 1),
     legend.position = "none"
   )
+
+# From my findings, i observed april had the highest rate of unemployment while september had the lowest
 
 # Question 3
 # In terms of years 
