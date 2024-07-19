@@ -46,6 +46,8 @@ Based on the Unemployment in India dataset from Kaggle, This dataset includes th
 1. DPLYR: Data plying with R
 2. GGPLOT2: Grammer of graphics plot 2
 
+## Note
+Firstly i'm going to start my analysis using Microsoft Excel to organise, analyse and check for any missing values and inconsistency in the data. After the session is completed, i would transform the data in the sense of adding a new column called **Estimated Employed Rate (%)** which is going to be the percentage of each each cells of the Estimated Employed column. Then i would import this data into R studio and then continue my analysis with R packages like DPLYR and GGPLOT2.
 
 
 
