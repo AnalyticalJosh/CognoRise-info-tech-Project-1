@@ -44,7 +44,7 @@ ggplot()
 
 # Question 2 
 Seasonal_pattern <- Unemployment_Data %>% group_by(Month = substr(Date,4,5)) %>% 
-  summarise(Total = sum(`Estimated Unemployment Rate (%)`))
+  summarise(Average = mean(`Estimated Unemployment Rate (%)`))
 View(Seasonal_pattern)
 
 # Question 3
