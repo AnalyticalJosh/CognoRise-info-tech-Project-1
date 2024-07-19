@@ -12,7 +12,6 @@
 # 11.Is there any relationship between labor participation and unemployment?
 
 # Solution
-summary(Unemployment_Data$Date)
 
 # Activate packages for data analysis and visualization
 library("dplyr")
