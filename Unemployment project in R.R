@@ -92,7 +92,7 @@ View(Disperities)
 # Question 6
 cor(Unemployment_Data$`Estimated Labour Participation Rate (%)`, Unemployment_Data$`Estimated Unemployment Rate (%)`)
 
-# Since the correlation is negative, there is no correlation between estimated labor participation rate and the unemployment rate
+# Since the correlation is negative, Hence there is a correlation between estimated labor participation rate and the unemployment rate
 
 # Question 7 
 Percentage <- Unemployment_Data %>% group_by(Region) %>% summarise(Sum_Employed = sum(`Estimated Employed`)) %>%
